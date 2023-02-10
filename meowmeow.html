@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MaverickDevelopment</title>
+  <style>
+    body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      background-color: 	#f6e0b5;
+    }
+    h1{
+      font-size: 40px;
+      color:#eea990;
+    }
+    #cat{
+      border:3px dashed 	#aa6f73;
+      width: 450px;
+      height: 315px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p{
+      font-size: 15px;
+      font-weight: bold;
+      color: 	#aa6f73;
+    }
+    iframe{
+      width: 450px;
+      height: 315px;
+    }
+    button{
+      box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+      padding: 2px 24px;
+      height: 48px;
+      font-size: 14px;
+      color: 	#aa6f73;
+      border-radius: 24px;
+      background-color:#faefda;
+      border-style: none;
+    }
+    button:hover {
+      background:	#aa6f73;
+      color: white;
+  }
+
+  </style>
+</head>
+<body>
+  <h1>Meow Meow</h1> 
+  <div id="cat">
+    <iframe src="https://drive.google.com/file/d/1n5cpcKaukTzi3nFGLvzFE2LBC0wKF_-t/preview" allow="autoplay"></iframe>
+  </div>
+  <p id="cat2">This is cat</p>
+  <br>
+  <button type="button" onclick="myCat()">Click For Cat</button>
+
+  <script>
+    function myCat(){
+        document.getElementById("cat").innerHTML = '<iframe src="https://www.youtube.com/embed/jTFfrUjCza4" title="cat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        document.getElementById("cat2").innerHTML =" I love Cat" 
+      }
+  </script>
+
+</body>
+</html>
